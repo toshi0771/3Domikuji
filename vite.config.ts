@@ -5,6 +5,7 @@ import { youwareVitePlugin } from "@youware/vite-plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [youwareVitePlugin(), react()],
+  base: '/3Domikuji/',
   server: {
     host: "127.0.0.1",
     port: 5173,
